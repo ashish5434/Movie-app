@@ -4,11 +4,12 @@ import { useDispatch } from 'react-redux';
 import { fetchAsyncMovies,fetchAsyncShows } from '../../features/movies/movieSlice';
 
 const Home = () => {
-
-  const dispatch=useDispatch()
+const dispatch=useDispatch()
+const movieText="mission";
+const showText="money heist";
   useEffect(()=>{
-    dispatch(fetchAsyncMovies())
-    dispatch(fetchAsyncShows())
+    dispatch(fetchAsyncMovies(movieText))
+    dispatch(fetchAsyncShows(showText))
    
   },[dispatch])
   

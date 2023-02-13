@@ -33,7 +33,8 @@ const MovieDetails = () => {
             Year <i className='fa fa-calendar'></i>:{data.Year}
           </span>
         </div>
-      <div className="movie-plot">{data.plot}</div>
+      <div className="movie-plot">{data.plot}
+     
       <div className='movie-info'>
         <div>
           <span>Director</span>
@@ -57,9 +58,9 @@ const MovieDetails = () => {
         </div>
       </div>
     </div>
-   
+   </div>
    <div className='section-right'>
-    <img src={data.Poster} alt={data.Title}/>
+    <img src={data.Poster} alt={data.Title} />
    </div>
    </div>
    </div>
