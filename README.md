@@ -14,5 +14,7 @@ The process to be followed :
 
 
 1.Routing concepts must be used.
+
 2.Components should be multi-structured.
+
 3.Naming convention is specific to the project domain.
